@@ -37,11 +37,11 @@ exec --no-startup-id /usr/lib/pam_kwallet_init
 # screen before suspend. Use loginctl lock-session to lock your screen.
 #exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 #SWAY LOCK
-bindsym $mod+End exec swaylock --screenshots --clock --effect-blur 7x5 --effect-vignette 0.5:0.5 --ring-color bb00cc --line-color 00000000 --inside-color 0000008
+#bindsym $mod+End exec swaylock --screenshots --clock --effect-blur 7x5 --effect-vignette 0.5:0.5 --ring-color bb00cc --line-color 00000000 --inside-color 0000008
 
-exec swayidle -w \
-	before-sleep 'loginctl lock-session $XDG_SESSION_ID' \
-	lock 'playerctl -a pause && swaylock --screenshots --clock --effect-blur 7x5 --effect-vignette 0.5:0.5 --ring-color bb00cc --line-color 00000000 --inside-color 00000088'
+#exec swayidle -w \
+#	before-sleep 'loginctl lock-session $XDG_SESSION_ID' \
+#	lock 'playerctl -a pause && swaylock --screenshots --clock --effect-blur 7x5 --effect-vignette 0.5:0.5 --ring-color bb00cc --line-color 00000000 --inside-color 00000088'
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
