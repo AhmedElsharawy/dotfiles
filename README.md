@@ -1,3 +1,4 @@
+# OUTDATED. WORKING ON A NEW SET OF DOTFILES USING HYPRLAND AND STOW CONFIG.
 # My personal non-minimal dotfiles running on 2 Arch Linux systems.
 
 ## System 1: Bigboi PC
